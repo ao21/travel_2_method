@@ -8,5 +8,5 @@ plans = [
 
 desp_plan(plans)
 chosen_plan = choose_plan(plans)
-count_people = decide_count(chosen_plan)
+count_people = decide_count_people(chosen_plan)
 calculate_total_price(chosen_plan, count_people)

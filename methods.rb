@@ -15,7 +15,7 @@ def choose_plan(plans)
   plans[select_num_plan - 1]
 end
 
-def decide_count(chosen_plan)
+def decide_count_people(chosen_plan)
   puts "#{chosen_plan[:place]}旅行ですね。"
   puts "何名で予約されますか？"
   while true
